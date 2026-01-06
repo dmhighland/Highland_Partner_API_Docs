@@ -22,6 +22,9 @@ With a company ID assignd, the partner may call this API to acquire an eSIM:
 
 This API doesn't require specific eSIM ID, as the system will automatically assign the next available eSIM with the provided company ID. 
 
+The LPA code and installation bar code URL will be returned as part of the response. The bar code is good for 3 days after activation. 
+
+
 If the partner knows a given eSIM id, another API call may assigne that eSIM ID to the given company ID.
 
 **POST /b2b/sim/acquire/simid**
