@@ -110,6 +110,7 @@ Please note when adding product you need to specify which market that product is
 When testing with add/remove product API, please only use this testing eSIM ID: 76010106, all other eSIM id won't work. 
 
 The following product id/market id pairs were created for testing:
+
 842/157
 
 844/160
