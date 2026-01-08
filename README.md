@@ -143,7 +143,221 @@ The following product id/market id pairs were created for testing:
 
 870/168
 
+Highland Solutions LLC provides some default data products, the following list contains default products a partner may start using immediately:
 
+{
+  "status": "success",
+  "product_list": [
+    {
+      "id": "842",
+      "name": "China-10MB/90days",
+      "description": "★★★ China-10MB/90days ★★★\n==============================\n* This package has a maximum usage of 10MB days\n* Valid for 90 days (starting from the first use package)\n* Local 3G/4G/LTE network\n* APN setting: plus\n* Coverage:【China】",
+      "useAreaId": "157",
+      "type": "DataPlan",
+      "market_name": "China",
+      "market_area": "China(76)",
+      "market_country_code": "460",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:30.462721"
+    },
+    {
+      "id": "844",
+      "name": "Australia & Malaysia & Taiwan & Singapore-100GB/1800days",
+      "description": "★★★ Australia & Malaysia & Taiwan & Singapore -100GB/1800days ★★★\n==============================\n* This package has a maximum usage of 100GB days\n* Valid for 1800 days (starting from the first use package)\n* Local 3G/4G/LTE network\n* APN setting: plus\n* Coverage: Australia & Malaysia & Taiwan & Singapore",
+      "useAreaId": "160",
+      "type": "DataPlan",
+      "market_name": "Australia & Malaysia & Taiwan & Singapore",
+      "market_area": "(76)Australia,Malaysia,Taiwan,Singapore",
+      "market_country_code": "460",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:31.708084"
+    },
+    {
+      "id": "845",
+      "name": "Canada -100GB/1800days",
+      "description": "★★★ Canada -100GB/1800days ★★★\n==============================\n* This package has a maximum usage of 100GB days\n* Valid for 1800 days (starting from the first use package)\n* Local 3G/4G/LTE network\n* APN setting: plus\n* Coverage: Canada",
+      "useAreaId": "161",
+      "type": "DataPlan",
+      "market_name": "Canada",
+      "market_area": "Canada(76)",
+      "market_country_code": "460",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:32.821847"
+    },
+    {
+      "id": "846",
+      "name": "USA -50GB/30days",
+      "description": "★★★ USA -50GB/30days ★★★\n==============================\n* This package has a maximum usage of 50GB days\n* Valid for 30 days (starting from the first use package)\n* Local 3G/4G/LTE network\n* APN setting: plus\n* Coverage: USA",
+      "useAreaId": "162",
+      "type": "DataPlan",
+      "market_name": "USA",
+      "market_area": "USA(76)",
+      "market_country_code": "310,311",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:33.939373"
+    },
+    {
+      "id": "851",
+      "name": "USA -1GB/7days",
+      "description": "★★★ USA -1GB/7days ★★★\n==============================\n* This package has a maximum usage of 1 GB days\n* Valid for 7 days (starting from the first use package)\n* Local 3G/4G/LTE network\n* APN setting: plus\n* Coverage: USA",
+      "useAreaId": "162",
+      "type": "DataPlan",
+      "market_name": "USA",
+      "market_area": "USA(76)",
+      "market_country_code": "310,311",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:34.008587"
+    },
+    {
+      "id": "852",
+      "name": "USA-5GB/30days",
+      "description": "★★★ USA-5GB/30days ★★★\n==============================\n* This package has a maximum usage of 5 GB days\n* Valid for 30 days (starting from the first use package)\n* Local 3G/4G/LTE network\n* APN setting: plus\n* Coverage: USA",
+      "useAreaId": "162",
+      "type": "DataPlan",
+      "market_name": "USA",
+      "market_area": "USA(76)",
+      "market_country_code": "310,311",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:34.069102"
+    },
+    {
+      "id": "847",
+      "name": "New Zealand -100GB/1800days",
+      "description": "★★★ New Zealand -100GB/1800days ★★★\n==============================\n* This package has a maximum usage of 100GB\n* Valid for 1800 days (starting from the first use package)\n* Local 3G/4G/LTE network\n* APN setting: plus\n* Coverage: New Zealand",
+      "useAreaId": "163",
+      "type": "DataPlan",
+      "market_name": "New Zealand",
+      "market_area": "New Zealand(76)",
+      "market_country_code": "460",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:35.179835"
+    },
+    {
+      "id": "856",
+      "name": "Asia Pacific 24 Countries-360MB/365days",
+      "description": "★★★ Asia Pacific 24 Countries-360MB/365days ★★★\n==============================\n* This package has a maximum usage of 360MB\n* Valid for 365 days (starting from the first use package)\n* Local 3G/4G/LTE network\n* APN setting: plus\n* Coverage: Australia/Bangladesh/Cambodia/China/Hong Kong/India/Indonesia/Israel/Japan/Kazakhstan/Kyrgyzstan/Laos/Macao China/Malaysia/New Zealand/Pakistan/Philippines/Singapore/South Korea/Sri Lanka/Taiwan/Thailand/Uzbekistan/Vietnam",
+      "useAreaId": "166",
+      "type": "DataPlan",
+      "market_name": "Asia Pacific-24 countries",
+      "market_area": "Asia Pacific-24 countries(76)",
+      "market_country_code": "460",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:36.439670"
+    },
+    {
+      "id": "867",
+      "name": "Asia Pacific 24 Countries-10GB/60days",
+      "description": "★★★ Asia Pacific 24 Countries-10GB/60days ★★★\n==============================\n* This package has a maximum usage of 10GB days\n* Valid for 60 days (starting from the first use package)\n* Local 3G/4G/LTE network\n* APN setting: plus\n* Coverage: Australia/Bangladesh/Cambodia/China/Hong Kong/India/Indonesia/Israel/Japan/Kazakhstan/Kyrgyzstan/Laos/Macao China/Malaysia/New Zealand/Pakistan/Philippines/Singapore/South Korea/Sri Lanka/Taiwan/Thailand/Uzbekistan/Vietnam",
+      "useAreaId": "166",
+      "type": "DataPlan",
+      "market_name": "Asia Pacific-24 countries",
+      "market_area": "Asia Pacific-24 countries(76)",
+      "market_country_code": "460",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:36.504602"
+    },
+    {
+      "id": "871",
+      "name": "Asia Pacific 24 Countries -1200MB/365days",
+      "description": "★★★ Asia Pacific 24 Countries -1200MB/365days ★★★\n==============================\n* This package has a maximum usage of 1200MB days\n* Valid for 365 days (starting from the first use package)\n* Local 3G/4G/LTE network\n* APN setting: plus\n* Coverage: Australia/Bangladesh/Cambodia/China/Hong Kong/India/Indonesia/Israel/Japan/Kazakhstan/Kyrgyzstan/Laos/Macao China/Malaysia/New Zealand/Pakistan/Philippines/Singapore/South Korea/Sri Lanka/Taiwan/Thailand/Uzbekistan/Vietnam",
+      "useAreaId": "166",
+      "type": "DataPlan",
+      "market_name": "Asia Pacific-24 countries",
+      "market_area": "Asia Pacific-24 countries(76)",
+      "market_country_code": "460",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:36.564992"
+    },
+    {
+      "id": "857",
+      "name": "Multi-Countries & Regions_A11-2GB/365days",
+      "description": "★★★ Multi-Countries & Regions_A11-2GB/365days ★★★\n=======================================\n* This package has a maximum usage of 2GB\n* Valid for 365 days (The time is calculated from the first connect to the network start) \n* Local 3G/4G/LTE network\n* APN setting(Manual mode):  plus\n* Coverage: Kyrgyzstan,Uzbekistan,Hong Kong,Kazakhstan,Macau,New Zealand,Pakistan,Malaysia,Russia,Armenia,Australia,Israel,Thailand,Indonesia,Reunion,Kuwait,India,Philippines,Qatar,Singapore,Sri Lanka,Azerbaijan,Bahrain,Taiwan,Tunisia,Ghana,Cambodia,Kosovo,Oman,United Arab Emirates,Bangladesh,South Korea,Vietnam,Egypt,Iraq,Saudi Arabia,Japan,Laos,China,Mongolia,Afghanistan,Nepal,Niger,Jordan,Benin,Iran,Maldives",
+      "useAreaId": "167",
+      "type": "DataPlan",
+      "market_name": "Multi-Countries & Regions - A11",
+      "market_area": "(76) Kyrgyzstan,Uzbekistan,Hong Kong,Kazakhstan,Macau,New Zealand,Pakistan,Malaysia,Russia,Armenia,Australia,Israel,Thailand,Indonesia,Reunion,Kuwait,India,Philippines,Qatar,Singapore,Sri Lanka,Azerbaijan,Bahrain,Taiwan,Tunisia,Ghana,Cambodia,Kosovo,Oman,United Arab Emirates,Bangladesh,South Korea,Vietnam,Egypt,Iraq,Saudi Arabia,Japan,Laos,China,Mongolia,Afghanistan,Nepal,Niger,Jordan,Benin,Iran,Maldives",
+      "market_country_code": "All",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:37.760264"
+    },
+    {
+      "id": "858",
+      "name": "Multi-Countries & Regions_A11-200MB/30days",
+      "description": "★★★ 多国家和地区_A11-200MB/30天 ★★★\n=======================================\n* This package has a maximum usage of 2GB\n* Valid for 365 days (The time is calculated from the first connect to the network start) \n* Local 3G/4G/LTE network\n* APN setting(Manual mode):  plus\n* Coverage: Kyrgyzstan,Uzbekistan,Hong Kong,Kazakhstan,Macau,New Zealand,Pakistan,Malaysia,Russia,Armenia,Australia,Israel,Thailand,Indonesia,Reunion,Kuwait,India,Philippines,Qatar,Singapore,Sri Lanka,Azerbaijan,Bahrain,Taiwan,Tunisia,Ghana,Cambodia,Kosovo,Oman,United Arab Emirates,Bangladesh,South Korea,Vietnam,Egypt,Iraq,Saudi Arabia,Japan,Laos,China,Mongolia,Afghanistan,Nepal,Niger,Jordan,Benin,Iran,Maldives",
+      "useAreaId": "167",
+      "type": "DataPlan",
+      "market_name": "Multi-Countries & Regions - A11",
+      "market_area": "(76) Kyrgyzstan,Uzbekistan,Hong Kong,Kazakhstan,Macau,New Zealand,Pakistan,Malaysia,Russia,Armenia,Australia,Israel,Thailand,Indonesia,Reunion,Kuwait,India,Philippines,Qatar,Singapore,Sri Lanka,Azerbaijan,Bahrain,Taiwan,Tunisia,Ghana,Cambodia,Kosovo,Oman,United Arab Emirates,Bangladesh,South Korea,Vietnam,Egypt,Iraq,Saudi Arabia,Japan,Laos,China,Mongolia,Afghanistan,Nepal,Niger,Jordan,Benin,Iran,Maldives",
+      "market_country_code": "All",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:37.825106"
+    },
+    {
+      "id": "859",
+      "name": "Multi-Countries & Regions_A11-1GB/180days",
+      "description": "★★★ Multi-Countries & Regions_A11-1GB/180days ★★★\n=======================================\n* This package has a maximum usage of 1GB\n* Valid for 180 days (The time is calculated from the first connect to the network start) \n* Local 3G/4G/LTE network\n* APN setting(Manual mode):  plus\n* Coverage: Kyrgyzstan,Uzbekistan,Hong Kong,Kazakhstan,Macau,New Zealand,Pakistan,Malaysia,Russia,Armenia,Australia,Israel,Thailand,Indonesia,Reunion,Kuwait,India,Philippines,Qatar,Singapore,Sri Lanka,Azerbaijan,Bahrain,Taiwan,Tunisia,Ghana,Cambodia,Kosovo,Oman,United Arab Emirates,Bangladesh,South Korea,Vietnam,Egypt,Iraq,Saudi Arabia,Japan,Laos,China,Mongolia,Afghanistan,Nepal,Niger,Jordan,Benin,Iran,Maldives",
+      "useAreaId": "167",
+      "type": "DataPlan",
+      "market_name": "Multi-Countries & Regions - A11",
+      "market_area": "(76) Kyrgyzstan,Uzbekistan,Hong Kong,Kazakhstan,Macau,New Zealand,Pakistan,Malaysia,Russia,Armenia,Australia,Israel,Thailand,Indonesia,Reunion,Kuwait,India,Philippines,Qatar,Singapore,Sri Lanka,Azerbaijan,Bahrain,Taiwan,Tunisia,Ghana,Cambodia,Kosovo,Oman,United Arab Emirates,Bangladesh,South Korea,Vietnam,Egypt,Iraq,Saudi Arabia,Japan,Laos,China,Mongolia,Afghanistan,Nepal,Niger,Jordan,Benin,Iran,Maldives",
+      "market_country_code": "All",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:37.890192"
+    },
+    {
+      "id": "868",
+      "name": "Global 163 Countries & Regions_2GB/365days",
+      "description": "★★★ Global 163 Countries & Regions_2GB/365days ★★★\n=======================================\n* This package has a maximum usage of 2GB\n* Valid for 365 days (The time is calculated from the first connect to the network start) \n* Local 3G/4G/LTE network\n* APN setting(Manual mode):  plus\n* Coverage: (76) Ukraine, Slovakia, Liechtenstein, Poland, Finland, Kyrgyzstan, Romania, Lithuania, Kazakhstan, Uzbekistan, Germany, Netherlands, Cyprus, Greece, United Kingdom, Norway, France, Spain, Montenegro, Pakistan, Albania, Belgium, Czech Republic, Moldova, Croatia, Hungary, Estonia, Hong Kong, Macao China, Austria, Portugal, Luxembourg, Turkey, Bulgaria, Sweden, Italy, Vatican City, Slovenia, Malta, Serbia, Denmark, Ireland, Israel, Switzerland, Bangladesh, Latvia, New Zealand, Malaysia, Russian Federation, Armenia, Iceland, Thailand, Australia, Indonesia, Reunion, Algeria, Kuwait, United States, Sri Lanka, Georgia, Philippines, Tunisia, Belarus, Bosnia and Herzegovina, India, Qatar, Singapore, Faroe Islands, Taiwan, Macedonia, Bahrain, Azerbaijan, South Korea, Ghana, Kosovo, Tajikistan, Oman, Brazil, Andorra, Vietnam, Cambodia, Isle of Man, Guernsey, Jersey, Argentia, Japan, Saudi Arabia, Ecuador, Costa Rica, Uruguay, Chile, Gibraltar, Peru, Mexico, Canada, Iraq, Egypt, French Guiana, China, Laos, Nigeria, Morocco, Madagascar, United Arab Emirates, Tanzania, Kenya, Samoa, Zambia, Uganda, South Africa, Congo Dem. Rep, Gabon, Malawi, Chad, Congo Republic, Paraguay, Afghanistan, Nepal, Colombia, Netherlands Antilles, Guadeloupe, Mongolia, Montserrat, Panama, Jamaica, Niger, Mauritius, El Salvador, Barbados, Antigua and Barbuda, Dominica, Jordan, Anguilla, Cayman Islands, Grenada, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and Grenadines, British Virgin Islands, Benin, Turks and Caicos Islands, Rwanda, Honduras, Bolivia, Dominican Republic, Nicaragua, Iran, Guatemala, Bahamas, Maldives, Venezuela, Senegal, Cape Verde, Palestinian Territory, Sudan, Belize, Trinidad and Tobago, Mozambique, Curacao, French Polynesia, Suriname, Guyana, Bermuda",
+      "useAreaId": "168",
+      "type": "DataPlan",
+      "market_name": "Global 163 Countries & Regions",
+      "market_area": "(76) Ukraine, Slovakia, Liechtenstein, Poland, Finland, Kyrgyzstan, Romania, Lithuania, Kazakhstan, Uzbekistan, Germany, Netherlands, Cyprus, Greece, United Kingdom, Norway, France, Spain, Montenegro, Pakistan, Albania, Belgium, Czech Republic, Moldova, Croatia, Hungary, Estonia, Hong Kong, Macao China, Austria, Portugal, Luxembourg, Turkey, Bulgaria, Sweden, Italy, Vatican City, Slovenia, Malta, Serbia, Denmark, Ireland, Israel, Switzerland, Bangladesh, Latvia, New Zealand, Malaysia, Russian Federation, Armenia, Iceland, Thailand, Australia, Indonesia, Reunion, Algeria, Kuwait, United States, Sri Lanka, Georgia, Philippines, Tunisia, Belarus, Bosnia and Herzegovina, India, Qatar, Singapore, Faroe Islands, Taiwan, Macedonia, Bahrain, Azerbaijan, South Korea, Ghana, Kosovo, Tajikistan, Oman, Brazil, Andorra, Vietnam, Cambodia, Isle of Man, Guernsey, Jersey, Argentia, Japan, Saudi Arabia, Ecuador, Costa Rica, Uruguay, Chile, Gibraltar, Peru, Mexico, Canada, Iraq, Egypt, French Guiana, China, Laos, Nigeria, Morocco, Madagascar, United Arab Emirates, Tanzania, Kenya, Samoa, Zambia, Uganda, South Africa, Congo Dem. Rep, Gabon, Malawi, Chad, Congo Republic, Paraguay, Afghanistan, Nepal, Colombia, Netherlands Antilles, Guadeloupe, Mongolia, Montserrat, Panama, Jamaica, Niger, Mauritius, El Salvador, Barbados, Antigua and Barbuda, Dominica, Jordan, Anguilla, Cayman Islands, Grenada, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and Grenadines, British Virgin Islands, Benin, Turks and Caicos Islands, Rwanda, Honduras, Bolivia, Dominican Republic, Nicaragua, Iran, Guatemala, Bahamas, Maldives, Venezuela, Senegal, Cape Verde, Palestinian Territory, Sudan, Belize, Trinidad and Tobago, Mozambique, Curacao, French Polynesia, Suriname, Guyana, Bermuda",
+      "market_country_code": "All",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:39.017925"
+    },
+    {
+      "id": "869",
+      "name": "Global 163 Countries & Regions_1GB/180days",
+      "description": "★★★ Global 163 Countries & Regions_1GB/180days ★★★\n=======================================\n* This package has a maximum usage of 1GB\n* Valid for 180 days (The time is calculated from the first connect to the network start) \n* Local 3G/4G/LTE network\n* APN setting(Manual mode):  plus\n* Coverage: (76) Ukraine, Slovakia, Liechtenstein, Poland, Finland, Kyrgyzstan, Romania, Lithuania, Kazakhstan, Uzbekistan, Germany, Netherlands, Cyprus, Greece, United Kingdom, Norway, France, Spain, Montenegro, Pakistan, Albania, Belgium, Czech Republic, Moldova, Croatia, Hungary, Estonia, Hong Kong, Macao China, Austria, Portugal, Luxembourg, Turkey, Bulgaria, Sweden, Italy, Vatican City, Slovenia, Malta, Serbia, Denmark, Ireland, Israel, Switzerland, Bangladesh, Latvia, New Zealand, Malaysia, Russian Federation, Armenia, Iceland, Thailand, Australia, Indonesia, Reunion, Algeria, Kuwait, United States, Sri Lanka, Georgia, Philippines, Tunisia, Belarus, Bosnia and Herzegovina, India, Qatar, Singapore, Faroe Islands, Taiwan, Macedonia, Bahrain, Azerbaijan, South Korea, Ghana, Kosovo, Tajikistan, Oman, Brazil, Andorra, Vietnam, Cambodia, Isle of Man, Guernsey, Jersey, Argentia, Japan, Saudi Arabia, Ecuador, Costa Rica, Uruguay, Chile, Gibraltar, Peru, Mexico, Canada, Iraq, Egypt, French Guiana, China, Laos, Nigeria, Morocco, Madagascar, United Arab Emirates, Tanzania, Kenya, Samoa, Zambia, Uganda, South Africa, Congo Dem. Rep, Gabon, Malawi, Chad, Congo Republic, Paraguay, Afghanistan, Nepal, Colombia, Netherlands Antilles, Guadeloupe, Mongolia, Montserrat, Panama, Jamaica, Niger, Mauritius, El Salvador, Barbados, Antigua and Barbuda, Dominica, Jordan, Anguilla, Cayman Islands, Grenada, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and Grenadines, British Virgin Islands, Benin, Turks and Caicos Islands, Rwanda, Honduras, Bolivia, Dominican Republic, Nicaragua, Iran, Guatemala, Bahamas, Maldives, Venezuela, Senegal, Cape Verde, Palestinian Territory, Sudan, Belize, Trinidad and Tobago, Mozambique, Curacao, French Polynesia, Suriname, Guyana, Bermuda",
+      "useAreaId": "168",
+      "type": "DataPlan",
+      "market_name": "Global 163 Countries & Regions",
+      "market_area": "(76) Ukraine, Slovakia, Liechtenstein, Poland, Finland, Kyrgyzstan, Romania, Lithuania, Kazakhstan, Uzbekistan, Germany, Netherlands, Cyprus, Greece, United Kingdom, Norway, France, Spain, Montenegro, Pakistan, Albania, Belgium, Czech Republic, Moldova, Croatia, Hungary, Estonia, Hong Kong, Macao China, Austria, Portugal, Luxembourg, Turkey, Bulgaria, Sweden, Italy, Vatican City, Slovenia, Malta, Serbia, Denmark, Ireland, Israel, Switzerland, Bangladesh, Latvia, New Zealand, Malaysia, Russian Federation, Armenia, Iceland, Thailand, Australia, Indonesia, Reunion, Algeria, Kuwait, United States, Sri Lanka, Georgia, Philippines, Tunisia, Belarus, Bosnia and Herzegovina, India, Qatar, Singapore, Faroe Islands, Taiwan, Macedonia, Bahrain, Azerbaijan, South Korea, Ghana, Kosovo, Tajikistan, Oman, Brazil, Andorra, Vietnam, Cambodia, Isle of Man, Guernsey, Jersey, Argentia, Japan, Saudi Arabia, Ecuador, Costa Rica, Uruguay, Chile, Gibraltar, Peru, Mexico, Canada, Iraq, Egypt, French Guiana, China, Laos, Nigeria, Morocco, Madagascar, United Arab Emirates, Tanzania, Kenya, Samoa, Zambia, Uganda, South Africa, Congo Dem. Rep, Gabon, Malawi, Chad, Congo Republic, Paraguay, Afghanistan, Nepal, Colombia, Netherlands Antilles, Guadeloupe, Mongolia, Montserrat, Panama, Jamaica, Niger, Mauritius, El Salvador, Barbados, Antigua and Barbuda, Dominica, Jordan, Anguilla, Cayman Islands, Grenada, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and Grenadines, British Virgin Islands, Benin, Turks and Caicos Islands, Rwanda, Honduras, Bolivia, Dominican Republic, Nicaragua, Iran, Guatemala, Bahamas, Maldives, Venezuela, Senegal, Cape Verde, Palestinian Territory, Sudan, Belize, Trinidad and Tobago, Mozambique, Curacao, French Polynesia, Suriname, Guyana, Bermuda",
+      "market_country_code": "All",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:39.124853"
+    },
+    {
+      "id": "870",
+      "name": "Global 163 Countries & Regions_200MB/30days",
+      "description": "★★★ Global 163 Countries & Regions_200MB/30days ★★★\n=======================================\n* This package has a maximum usage of 200MB\n* Valid for 30 days (The time is calculated from the first connect to the network start) \n* Local 3G/4G/LTE network\n* APN setting(Manual mode):  plus\n* Coverage: (76) Ukraine, Slovakia, Liechtenstein, Poland, Finland, Kyrgyzstan, Romania, Lithuania, Kazakhstan, Uzbekistan, Germany, Netherlands, Cyprus, Greece, United Kingdom, Norway, France, Spain, Montenegro, Pakistan, Albania, Belgium, Czech Republic, Moldova, Croatia, Hungary, Estonia, Hong Kong, Macao China, Austria, Portugal, Luxembourg, Turkey, Bulgaria, Sweden, Italy, Vatican City, Slovenia, Malta, Serbia, Denmark, Ireland, Israel, Switzerland, Bangladesh, Latvia, New Zealand, Malaysia, Russian Federation, Armenia, Iceland, Thailand, Australia, Indonesia, Reunion, Algeria, Kuwait, United States, Sri Lanka, Georgia, Philippines, Tunisia, Belarus, Bosnia and Herzegovina, India, Qatar, Singapore, Faroe Islands, Taiwan, Macedonia, Bahrain, Azerbaijan, South Korea, Ghana, Kosovo, Tajikistan, Oman, Brazil, Andorra, Vietnam, Cambodia, Isle of Man, Guernsey, Jersey, Argentia, Japan, Saudi Arabia, Ecuador, Costa Rica, Uruguay, Chile, Gibraltar, Peru, Mexico, Canada, Iraq, Egypt, French Guiana, China, Laos, Nigeria, Morocco, Madagascar, United Arab Emirates, Tanzania, Kenya, Samoa, Zambia, Uganda, South Africa, Congo Dem. Rep, Gabon, Malawi, Chad, Congo Republic, Paraguay, Afghanistan, Nepal, Colombia, Netherlands Antilles, Guadeloupe, Mongolia, Montserrat, Panama, Jamaica, Niger, Mauritius, El Salvador, Barbados, Antigua and Barbuda, Dominica, Jordan, Anguilla, Cayman Islands, Grenada, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and Grenadines, British Virgin Islands, Benin, Turks and Caicos Islands, Rwanda, Honduras, Bolivia, Dominican Republic, Nicaragua, Iran, Guatemala, Bahamas, Maldives, Venezuela, Senegal, Cape Verde, Palestinian Territory, Sudan, Belize, Trinidad and Tobago, Mozambique, Curacao, French Polynesia, Suriname, Guyana, Bermuda",
+      "useAreaId": "168",
+      "type": "DataPlan",
+      "market_name": "Global 163 Countries & Regions",
+      "market_area": "(76) Ukraine, Slovakia, Liechtenstein, Poland, Finland, Kyrgyzstan, Romania, Lithuania, Kazakhstan, Uzbekistan, Germany, Netherlands, Cyprus, Greece, United Kingdom, Norway, France, Spain, Montenegro, Pakistan, Albania, Belgium, Czech Republic, Moldova, Croatia, Hungary, Estonia, Hong Kong, Macao China, Austria, Portugal, Luxembourg, Turkey, Bulgaria, Sweden, Italy, Vatican City, Slovenia, Malta, Serbia, Denmark, Ireland, Israel, Switzerland, Bangladesh, Latvia, New Zealand, Malaysia, Russian Federation, Armenia, Iceland, Thailand, Australia, Indonesia, Reunion, Algeria, Kuwait, United States, Sri Lanka, Georgia, Philippines, Tunisia, Belarus, Bosnia and Herzegovina, India, Qatar, Singapore, Faroe Islands, Taiwan, Macedonia, Bahrain, Azerbaijan, South Korea, Ghana, Kosovo, Tajikistan, Oman, Brazil, Andorra, Vietnam, Cambodia, Isle of Man, Guernsey, Jersey, Argentia, Japan, Saudi Arabia, Ecuador, Costa Rica, Uruguay, Chile, Gibraltar, Peru, Mexico, Canada, Iraq, Egypt, French Guiana, China, Laos, Nigeria, Morocco, Madagascar, United Arab Emirates, Tanzania, Kenya, Samoa, Zambia, Uganda, South Africa, Congo Dem. Rep, Gabon, Malawi, Chad, Congo Republic, Paraguay, Afghanistan, Nepal, Colombia, Netherlands Antilles, Guadeloupe, Mongolia, Montserrat, Panama, Jamaica, Niger, Mauritius, El Salvador, Barbados, Antigua and Barbuda, Dominica, Jordan, Anguilla, Cayman Islands, Grenada, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and Grenadines, British Virgin Islands, Benin, Turks and Caicos Islands, Rwanda, Honduras, Bolivia, Dominican Republic, Nicaragua, Iran, Guatemala, Bahamas, Maldives, Venezuela, Senegal, Cape Verde, Palestinian Territory, Sudan, Belize, Trinidad and Tobago, Mozambique, Curacao, French Polynesia, Suriname, Guyana, Bermuda",
+      "market_country_code": "All",
+      "company_id": "4345d86fbf8a11f09f474c50dd6c0d86",
+      "company_name": "Highland Solutions LLC",
+      "last_updated": "2026-01-01T19:49:39.234122"
+    }
+  ]
+}
 
 
 
