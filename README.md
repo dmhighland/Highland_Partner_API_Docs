@@ -105,7 +105,7 @@ If you need to add more fake eSIM to inventory for testing, you can use this API
 
 Once the eSIM is acquired, you can add/remove data product on that eSIM, APIs: POST "/b2b/sim/product/add" or POST "/b2b/sim/product/remove". 
 
-Please note when adding product you need to speciy which market that product is configured, but when removing product you don't need to specify the market. 
+Please note when adding product you need to specify which market that product is configured, but when removing product you don't need to specify the market. 
 
 When testing with add/remove product API, please only use this testing eSIM ID: 76010106, all other eSIM id won't work. 
 
