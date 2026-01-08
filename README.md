@@ -81,3 +81,33 @@ To restore a given eSIM, a partner may use the following API:
 
 **POST /b2b/sim/restore**
 
+## Examples
+
+A company id has been created: "1a9a1d8ddc9311f09e024c50dd6c0d86". 
+
+You can test query this company with this API: GET "/b2b/company/summary".
+
+You can then call the eSIM acquire API, POST "/b2b/sim/acquire". This API wil acquire an eSIM for the given company id. 
+
+If there is no more eSIM in the inventory, this API will fail with error: {"status":"failure","details":"No more eSIM available for activation."}
+
+If you need to add more fake eSIM to inventory for testing, you can use this API: PUT "highland/esim", example:
+
+61007763,8948010000042217613,260010191724652,14254458443,1$sm-dp-address.com$ACTIVATIONCODE12346
+61007764,8948010000042217614,260010191724653,14254458444,1$sm-dp-address.com$ACTIVATIONCODE12347
+61007765,8948010000042217615,260010191724654,14254458445,1$sm-dp-address.com$ACTIVATIONCODE12348
+61007766,8948010000042217616,260010191724655,14254458446,1$sm-dp-address.com$ACTIVATIONCODE12349
+61007767,8948010000042217617,260010191724656,14254458447,1$sm-dp-address.com$ACTIVATIONCODE12350
+61007768,8948010000042217618,260010191724657,14254458448,1$sm-dp-address.com$ACTIVATIONCODE12351
+61007769,8948010000042217619,260010191724658,14254458449,1$sm-dp-address.com$ACTIVATIONCODE12352
+61007770,8948010000042217623,260010191724659,14254458450,1$sm-dp-address.com$ACTIVATIONCODE12353
+61007771,8948010000042217624,260010191724650,14254458451,1$sm-dp-address.com$ACTIVATIONCODE12354
+
+Once the eSIM is acquired, you can add/remove data product on that eSIM, APIs: POST "/b2b/sim/product/add" or POST "/b2b/sim/product/remove". 
+
+Please note when adding product you need to speciy which market that product is configured, but when removing product you don't need to specify the market. 
+
+    
+
+
+
