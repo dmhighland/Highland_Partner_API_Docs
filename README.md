@@ -111,20 +111,35 @@ When testing with add/remove product API, please only use this testing eSIM ID: 
 
 The following product id/market id pairs were created for testing:
 842/157
+
 844/160
+
 845/161
+
 846/162
+
 851/162
+
 852/162
+
 847/163
+
 856/166
+
 867/166
+
 871/166
+
 857/167
+
 858/167
+
 859/167
+
 868/168
+
 869/168
+
 870/168
 
 
