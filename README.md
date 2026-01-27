@@ -1,7 +1,7 @@
 # Highland_Partner_API_Docs
 
 ## Summary
-Highland Soltuions LLC is a eSIM wholesaler. We distribute eSIMs to our partners in bulk, and these partners may use Highland Partner APIs to manage their eSIM portfolio.
+Highland Solutions LLC is a eSIM wholesaler. We distribute eSIMs to our partners in bulk, and these partners may use Highland Partner APIs to manage their eSIM portfolio.
 
 Please contact Highland Solutions LLC for API access info: https://www.highlandai.net/, david@highlandai.net.
 
@@ -12,20 +12,20 @@ A partner may call this API to onboard:
 
 **PUT /b2b/company**
 
-This creates a company entitiy and assigns a company ID.
+This creates a company entity and assigns a company ID.
 
 ## Acquire eSIM
 
-With a company ID assignd, the partner may call this API to acquire an eSIM:
+With a company ID assigned, the partner may call this API to acquire an eSIM:
 
 **POST /b2b/sim/acquire**
 
-This API doesn't require specific eSIM ID, as the system will automatically assign the next available eSIM with the provided company ID. 
+This API doesn't require a specific eSIM ID, as the system will automatically assign the next available eSIM with the provided company ID. 
 
 The LPA code and installation bar code URL will be returned as part of the response. The bar code is good for 3 days after activation. 
 
 
-If the partner knows a given eSIM id, another API call may assigne that eSIM ID to the given company ID.
+If the partner knows a given eSIM id, another API call may assign that eSIM ID to the given company ID.
 
 **POST /b2b/sim/acquire/simid**
 
@@ -51,7 +51,7 @@ The partner may also remove a data product from an eSIM with the following API:
 
 ## Check Data Usage
 
-The parner may use the follwoing API to query data usage with the current data product:
+The partner may use the following API to query data usage with the current data product:
 
 **GET /b2b/sim/product_usage**
 
@@ -63,7 +63,7 @@ If the parter wants to query data usage within a given time window, this API is 
 
 ## Check Data Usage On All Products
 
-If the given eSIM has mulltiple data products provisioned, this following API can be used to query usage on all products:
+If the given eSIM has multiple data products provisioned, this following API can be used to query usage on all products:
 
 **GET /b2b/sim/product_usage/all_product/**
 
