@@ -1,7 +1,7 @@
 # Highland_Partner_API_Docs
 
 ## Summary
-Highland Solutions LLC is a eSIM wholesaler. We distribute eSIMs to our partners in bulk, and these partners may use Highland Partner APIs to manage their eSIM portfolio.
+Highland Solutions LLC is an eSIM wholesaler. We distribute eSIMs to our partners in bulk, and these partners may use Highland Partner APIs to manage their eSIM portfolio.
 
 Please contact Highland Solutions LLC for API access info: https://www.highlandai.net/, david@highlandai.net.
 
